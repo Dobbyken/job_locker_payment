@@ -17,12 +17,16 @@
 
 1. Purchase Products
 2. Subscribe for services - Billed Monthly | Yearly (I need both as a option for clients)
-3. A complete purchase work flow using Stripe `embedding payment form`
-4. A UML of complete purchase work flow
-5. This is for my website to checkout products
-6. Also I need subscription base checkout and management
-7. Create a frontend for testing purpose inside `./test` folder
-8. Please create your own Stripe Account for development
+3. A complete purchase function using Stripe `embedding payment form` including refund method
+4. A complete subscribe function using Stripe `embedding payment form`
+5. A UML of complete purchase work flow
+6. A UML of complete subscribe work flow
+7. This is for my website to checkout products
+8. Also I need subscription base checkout and management.
+   - Remove saved credit card
+   - Unsubscribe control
+9. Create a frontend for testing purpose inside `./test` folder
+10. Please create your own Stripe Account for development
 
 ## Additional Scenarios Needed
 
@@ -39,7 +43,7 @@
 5. Neat and maintainable code
 6. Submit to review within 4 days
 7. Complete this job within 6 days
-8. Submit works via create pull request to [github]() and let me review the code before accepting your works
+8. Submit works via create pull request to [github](https://github.com/Dobbyken/job_locker_payment) and let me review the code before accepting your works
 
 ```zsh
 # APIs
@@ -80,7 +84,7 @@ src/schema
 | EMAIL_USER      | {{User}}     |
 | EMAIL_PASS      | {{Password}} |
 
-** Add Stripe Keys
+\*\* Add Stripe Keys
 
 ## Reminder
 
